@@ -1,11 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
-    --primary-color: #F6FB7A;
-    --secondary-color: #B4E380;
+    --primary-color:#6482AD;
+    --secondary-color: #7FA1C3;
+    --tertiary-color: #E2DAD6;
+    --quaternary-color: #F5EDED;
     --primary-font: "Montserrat", sans-serif;
+
 }
 
-h1 {
-    color: var(--primary-color);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.navbar-title {
+    color: var(--quaternary-color);
 }
